@@ -636,3 +636,9 @@ a.fa.fa-angle-down:hover{
     -o-transition: 500ms;
     transition: 500ms;
 }
+@media (max-width: 800px) {
+   .content{
+       padding-top: 250px;
+   }
+
+}
