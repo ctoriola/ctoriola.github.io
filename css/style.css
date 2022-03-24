@@ -81,7 +81,12 @@ ul, ol{
 #art-menu {
     padding: 20px;
     transition: all 0.8s;
+
 }
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
 #art-menu.navbar-default {
     background-color: rgba(248, 248, 248, 0);
     border-color: rgba(231, 231, 231, 0);
@@ -583,7 +588,7 @@ a.fa.fa-angle-down:hover{
     opacity: 0.8;
 }
 .social-icons .icon-sm:hover  {
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #5e71de;
 }
 .icon-lg {
@@ -621,6 +626,7 @@ a.fa.fa-angle-down:hover{
     line-height: 34px;
     color: #fff;
     margin-right: 10px;
+    padding-top: 6px;
     background-color: rgba(0, 0, 0, 0.4);
     text-align: center;
     display: block;
