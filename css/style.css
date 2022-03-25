@@ -496,7 +496,7 @@ background: rgba(7, 2, 4, 0.77);
     opacity: 1;
 }
 #portfolio{
-    background: url("../images/works-bg.gif");
+    background: url("../images/home-bg.jpeg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
