@@ -500,8 +500,9 @@ background: rgba(7, 2, 4, 0.77);
 }
 #portfolio{
     background: url("../images/work-bg.jpeg");
-    background-position: center center;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 blockquote {
